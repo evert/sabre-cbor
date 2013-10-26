@@ -1,0 +1,31 @@
+{
+    "name": "sabre/cbor",
+    "description" : "The sabre/cbor library a PHP implementation for the Concise Binary Object Representation (rfc7049).",
+    "keywords" : [ "CBOR", "Binary", "Serialization" ],
+    "homepage" : "https://github.com/evert/sabre-cbor",
+    "license" : "BSD-3-Clause",
+    "require" : {
+        "php"          : ">=5.4.1"
+    },
+    "authors" : [
+        {
+            "name" : "Evert Pot",
+            "email" : "evert@rooftopsolutions.nl",
+            "homepage" : "http://evertpot.com/",
+            "role" : "Developer"
+        }
+    ],
+    "support" : {
+        "forum" : "https://groups.google.com/group/sabredav-discuss",
+        "source" : "https://github.com/evert/sabre-cbor"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Sabre\\CBOR" : "lib/"
+        },
+        "files" : [
+            "lib/Sabre/CBOR/constants.php",
+            "lib/Sabre/CBOR/functions.php"
+        ]
+    }
+}
